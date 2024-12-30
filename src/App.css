@@ -1,0 +1,51 @@
+.inputes{
+  margin-top: 300px;
+  margin-left: 40px;
+
+}
+
+
+@media screen and (max-width:500px) {
+  .inputes{
+    margin-top: 400px;
+    margin-left: 40px;
+  
+  }
+}
+.bmiimg{
+  margin-top: 2px;
+  margin-left: -10px;
+  position: absolute;
+
+ }
+
+ @media screen and (max-width:500px) {
+  
+  .bmiimg{
+    width: 400px;
+    margin-top: 60px;
+    margin-left: -60px;
+    position: absolute;
+  
+   }
+ }
+
+/* .full-sec{
+margin-left: -100px;
+
+}  */
+
+.error{
+  color: red;
+font-size: 12px;
+
+}
+@media screen and (max-width:500px) {
+  .error{
+    color: red;
+  font-size: 12px;
+  position: absolute;
+  margin-top: -17px;
+margin-left: -20px;
+  }
+}
